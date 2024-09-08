@@ -28,6 +28,7 @@ export function ProfileCard() {
         </div>
         <h2 className="text-xl font-semibold mb-4">About Me</h2>
         <p className="text-muted-foreground mb-6">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           I'm a passionate photographer capturing the beauty of the world through my lens. I specialize in equestrian photography, creating unique and timeless images that tell a story.
         </p>
         <div className="space-y-2">
