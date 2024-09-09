@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .hide-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari and Opera */
+    }
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;
@@ -31,7 +42,7 @@
         --input: 0 0% 85%;
         --ring: 0 0% 76%;
 
-        --radius: 0.5rem;
+        --radius: 0.2rem;
     }
 
     .dark {
