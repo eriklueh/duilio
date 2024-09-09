@@ -1,9 +1,9 @@
-import { PhotographerLanding } from "~/components/photographer_landing";
+import { PhotographerPortfolio } from "~/components/photographer-portfolio";
 
 export default function HomePage() {
   return (
     <main>
-      <PhotographerLanding />
+      <PhotographerPortfolio />
     </main>
   );
 }
